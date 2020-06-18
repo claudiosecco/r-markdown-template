@@ -5,9 +5,13 @@ date: Setembro de 2019
 output: 
   html_document:
     theme: sandstone
+    css: custom.css
+    toc: true
+    toc_depth: 3
     includes:
       in_header: my-header.html
       before_body: logo.html
+      after_body: footer.html
 ---
 
 <style>
@@ -21,7 +25,16 @@ body{
 </style>
 
 ## Análise
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec bibendum scelerisque libero, at sollicitudin odio sodales et. Integer aliquam vulputate elit id posuere. Aenean dapibus lorem nec velit porttitor, ut laoreet nisl mattis. Nam tincidunt libero massa, in consectetur urna pharetra at. Etiam non mauris sit amet odio varius consectetur eu sit amet lorem. In interdum quam et elit interdum tempor. Etiam molestie nibh sit amet sagittis pellentesque. Aliquam tempus leo vitae libero dapibus finibus. Mauris ultricies sem eget turpis gravida, eu vestibulum diam congue. Nam vulputate, erat sed hendrerit volutpat, libero nunc dignissim felis, vel tristique purus nunc ac eros. Sed fringilla metus pretium, sodales lorem quis, bibendum sem. Morbi non sapien quis mauris venenatis auctor. Etiam varius lobortis urna, quis dapibus ligula tristique venenatis.
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. In laoreet libero nunc, at auctor odio suscipit in. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque euismod feugiat eleifend. Praesent ultricies odio quam, a tempor libero elementum quis. Mauris mauris lectus, sodales at urna eget, consequat iaculis velit. Morbi ac est auctor lacus posuere dignissim eu non sem. Curabitur ornare dapibus justo in condimentum. Curabitur id bibendum elit. Nunc maximus urna at consequat tincidunt. Praesent eu turpis in nunc pretium vestibulum eget vitae orci.(https://example.com)
+
+Nam efficitur mattis semper. Vivamus ut tellus et lacus placerat tempor. Sed scelerisque arcu pulvinar, scelerisque sapien sit amet, congue diam. Donec ultricies nisl enim, a feugiat leo lacinia vitae. Etiam blandit felis eu ipsum venenatis consequat. Aenean pretium lacus sed quam molestie, a sodales quam euismod. Etiam ut ipsum odio. Sed fermentum eu nulla in suscipit. Sed vitae mi sed ipsum eleifend viverra. Suspendisse tristique varius neque et blandit. Curabitur at aliquet eros, id tincidunt magna. Quisque nec molestie urna. Fusce elementum varius lorem eget facilisis. Proin eleifend feugiat magna, eget scelerisque enim varius non. Donec egestas, dolor vel mollis tristique, libero ex mattis nisi, eget interdum justo quam vitae nisl. Mauris tortor sapien, commodo a interdum sit amet, pellentesque non dui.
+
+Proin varius enim ac augue finibus, eu placerat nibh finibus. Phasellus vulputate faucibus ultrices. Sed egestas neque arcu, vel aliquam quam volutpat a. Maecenas ullamcorper, leo sed pulvinar bibendum, mauris nibh semper sapien, sit amet commodo velit tortor ut ante. Cras elementum efficitur scelerisque. Nam consectetur pellentesque magna, vitae fringilla tellus ullamcorper a. Sed ac magna erat. Quisque odio neque, dignissim sed congue ac, imperdiet sed massa. Quisque vel sem pellentesque, elementum dolor vitae, malesuada lacus. Cras dictum nulla lacus, in bibendum tellus aliquam id. Nullam sodales velit eget ipsum aliquet elementum. Phasellus ut finibus dui. Etiam in volutpat dui, at varius velit. Fusce vitae luctus eros. Maecenas fermentum neque risus, at maximus arcu mattis sed. Fusce orci est, rhoncus ac pulvinar nec, condimentum id quam.
+
+Proin condimentum iaculis ligula sed imperdiet. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec nec rhoncus risus. Nullam at porta mi. Maecenas id libero vehicula, tincidunt libero eget, vulputate risus. Praesent tincidunt eget enim at vestibulum. Nullam egestas efficitur nisl, vel viverra magna tincidunt in. Cras efficitur dui eget neque lacinia tempor.
+
+Maecenas pharetra mauris eget dui dapibus, quis sodales ligula porta. Ut tempor, elit eu sodales tristique, tellus sapien facilisis neque, eu tempor nibh orci ac eros. Vestibulum leo leo, gravida tempor sagittis eget, posuere id ante. Donec in pulvinar augue. Pellentesque gravida libero vitae nunc iaculis, vel viverra quam dictum. Fusce pellentesque magna facilisis est vestibulum, a malesuada sapien pharetra. Vivamus pretium, nibh vitae condimentum consequat, nibh purus viverra augue, id pretium ante nisl sed erat. Fusce sed hendrerit tortor, ut tempus libero. 
 
 ### H3
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec bibendum scelerisque libero, at sollicitudin odio sodales et. Integer aliquam vulputate elit id posuere. Aenean dapibus lorem nec velit porttitor, ut laoreet nisl mattis. Nam tincidunt libero massa, in consectetur urna pharetra at. Etiam non mauris sit amet odio varius consectetur eu sit amet lorem. In interdum quam et elit interdum tempor. Etiam molestie nibh sit amet sagittis pellentesque. Aliquam tempus leo vitae libero dapibus finibus. Mauris ultricies sem eget turpis gravida, eu vestibulum diam congue. Nam vulputate, erat sed hendrerit volutpat, libero nunc dignissim felis, vel tristique purus nunc ac eros. Sed fringilla metus pretium, sodales lorem quis, bibendum sem. Morbi non sapien quis mauris venenatis auctor. Etiam varius lobortis urna, quis dapibus ligula tristique venenatis.
